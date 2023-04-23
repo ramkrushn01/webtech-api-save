@@ -63,7 +63,7 @@ class SaveDeskshareMessages extends Controller
             $conversation = new Conversation;
             $conversation->threads_count = 1;
             $conversation->type = 1;
-            $conversation->folder_id = 3;
+            $conversation->folder_id = 3; // make 1 for unassign_folder it may different for your database
             $conversation->status = 2;
             $conversation->state = 2;
             $conversation->subject = $product_name;
