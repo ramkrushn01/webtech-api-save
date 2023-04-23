@@ -1,0 +1,1 @@
+In deskshare_messages table create new column as 'updated_at' and 'created_at' structure is given in 'deskshare_message_structure.png'
